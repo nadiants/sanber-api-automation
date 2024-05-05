@@ -1,0 +1,24 @@
+{
+  "name": "sanber-api-automation",
+  "version": "1.0.0",
+  "description": "tugas pekanan 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "nadia",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^5.1.0",
+    "jsonschema": "^1.4.1",
+    "mocha": "^10.4.0",
+    "supertest": "^7.0.0"
+  },
+  "devDependencies": {
+    "prettier": "3.2.5"
+  },
+  "type": "module"
+}
