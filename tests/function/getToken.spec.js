@@ -1,6 +1,6 @@
 import request from 'supertest'
 import { baseUrl } from "../../data/config.js";
-import { login } from '../../../data/testData.js'
+import { login } from '/sanber-api-automation/data/testData.js'
 
 export async function createToken() {
     /*const payload = {
@@ -13,6 +13,6 @@ export async function createToken() {
         .send(login)
         .set('Content-Type', 'application/json')
 
-    const token = (await response).body.data.accessToken
-    return token
+    const token = (await response).body.data.accessToken;
+    return token;
 }
