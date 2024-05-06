@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { expect } from "chai"
 import { createToken } from "../function/getToken.spec.js";
 import { addUser } from "../function/user/addUser.specs.js";
@@ -60,3 +61,8 @@ describe(' End to End - user', () => {
         })
     })
 })
+=======
+const { test } = require("mocha");
+
+test
+>>>>>>> efa0128175192f2026162d9d43d9640e32c47fb6
